@@ -199,7 +199,7 @@ attrition_df = pd.DataFrame(attrition_data)
 
 # Header
 st.markdown("<h1>👷 OP Dashboard</h1>", unsafe_allow_html=True)
-st.markdown("<div class='date-header'>📅 January 07, 2026 | CG • Offline • Assy • Testing • Packout</div>", unsafe_allow_html=True)
+st.markdown("<div class='date-header'>📅 January 12, 2026 | CG • Offline • Assy • Testing • Packout</div>", unsafe_allow_html=True)
 
 left_col, right_col = st.columns([1, 3], gap="small")
 

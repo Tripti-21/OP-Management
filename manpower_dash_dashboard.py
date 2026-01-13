@@ -155,7 +155,7 @@ absent_count = len(absent_df)
 present_count = total - absent_count
 
 MALE_COUNT = 22
-FEMALE_COUNT = 117
+FEMALE_COUNT = 118
 
 stages = ['CG', 'Offline', 'Assy', 'Testing', 'Packout']
 stage_data = []
@@ -199,7 +199,7 @@ attrition_df = pd.DataFrame(attrition_data)
 
 # Header
 st.markdown("<h1>👷 OP Dashboard</h1>", unsafe_allow_html=True)
-st.markdown("<div class='date-header'>📅 January 12, 2026 | CG • Offline • Assy • Testing • Packout</div>", unsafe_allow_html=True)
+st.markdown("<div class='date-header'>📅 January 13, 2026 | CG • Offline • Assy • Testing • Packout</div>", unsafe_allow_html=True)
 
 left_col, right_col = st.columns([1, 3], gap="small")
 

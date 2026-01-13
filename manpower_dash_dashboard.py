@@ -155,7 +155,7 @@ absent_count = len(absent_df)
 present_count = total - absent_count
 
 MALE_COUNT = 22
-FEMALE_COUNT = 118
+FEMALE_COUNT = 117
 
 stages = ['CG', 'Offline', 'Assy', 'Testing', 'Packout']
 stage_data = []

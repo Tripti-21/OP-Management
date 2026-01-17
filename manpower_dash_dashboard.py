@@ -159,7 +159,7 @@ FEMALE_COUNT = 117
 
 stages = ['CG', 'Offline', 'Assy', 'Testing', 'Packout']
 stage_data = []
-
+ 
 for stage in stages:
     total_in_stage = len(current_df[(current_df['Area'] == stage) & (current_df['ID'] != '')])
     absent_in_stage_df = absent_df[absent_df['Area'] == stage]
@@ -199,7 +199,7 @@ attrition_df = pd.DataFrame(attrition_data)
 
 # Header
 st.markdown("<h1>👷 OP Dashboard</h1>", unsafe_allow_html=True)
-st.markdown("<div class='date-header'>📅 January 16, 2026 | CG • Offline • Assy • Testing • Packout</div>", unsafe_allow_html=True)
+st.markdown("<div class='date-header'>📅 January 17, 2026 | CG • Offline • Assy • Testing • Packout</div>", unsafe_allow_html=True)
 
 left_col, right_col = st.columns([1, 3], gap="small")
 
